@@ -1,0 +1,53 @@
+/* src/styles/Login.css */
+
+.login-container {
+  max-width: 400px;
+  margin: 80px auto;
+  padding: 30px;
+  background-color: #e8e6e666;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-form label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.login-form input {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #f5f2f2a1;
+  border-radius: 8px;
+}
+
+.login-form button {
+  padding: 10px;
+  background-color: #4187bca5;
+  color: white;
+  border: none;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.login-form button:hover {
+  background-color: #0c4885da;
+}
+
+.registro-link {
+  text-align: center;
+  margin-top: 10px;
+  background-color: rgba(232, 233, 233, 0.204);
+}

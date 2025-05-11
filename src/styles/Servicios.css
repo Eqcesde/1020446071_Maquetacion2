@@ -1,0 +1,71 @@
+/* src/styles/Servicios.css */
+
+.servicios-page {
+  padding: 40px 20px;
+  text-align: center;
+  background-image: url('../../public/manos-con-nail-art-creativo.jpg'); /* ajusta el path según tu proyecto */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; /* efecto parallax */
+  min-height: 100vh;
+  color: #f0f0f0;
+}
+
+.servicios-page h2 {
+  color: #f23c42; /* rosa metálico claro */
+  margin-bottom: 30px;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.5);
+  font-size: 2em;
+}
+
+.servicio-lista {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.servicio-card {
+  width: 280px;
+  background: rgba(50, 50, 50, 0.555); /* oscuro semitransparente */
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.6);
+  padding: 15px;
+  text-align: left;
+  color: #f0f0f0;
+}
+
+.servicio-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.servicio-card h3 {
+  color: #ff4081; /* fucsia metálico */
+  margin-top: 5px;
+}
+
+.servicio-card .precio {
+  font-weight: bold;
+  color: #b2ff59; /* verde lima brillante */
+  margin-top: 5px;
+}
+
+.servicio-card button {
+  margin-top: 10px;
+  padding: 10px;
+  width: 100%;
+  background: linear-gradient(135deg, #ff4081, #c2185b);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.servicio-card button:hover {
+  background: linear-gradient(135deg, #f06292, #880e4f);
+}

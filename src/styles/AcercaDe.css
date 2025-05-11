@@ -1,0 +1,72 @@
+/* src/styles/AcercaDe.css */
+
+body, .acerca-page {
+  background-image: url('/manos-con-nail-art-creativo.jpg'); /* reemplaza por tu imagen */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 100vh;
+  padding: 40px 20px;
+  color: #f0f0f0;
+}
+
+.acerca-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 30px;
+  background: rgba(50, 50, 50, 0.515); /* fondo oscuro translúcido */
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.414);
+  color: #f0f0f0;
+}
+
+.acerca-container h2 {
+  text-align: center;
+  color: #f7c6ff; /* rosa metálico claro */
+  margin-bottom: 30px;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.5);
+}
+
+.historia, .filosofia, .testimonios {
+  margin-bottom: 30px;
+}
+
+.historia h3,
+.filosofia h3,
+.testimonios h3 {
+  color: #ff4081; /* fucsia metálico */
+  margin-bottom: 10px;
+}
+
+.filosofia ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.filosofia li {
+  margin-bottom: 8px;
+  font-size: 1.1em;
+  color: #e0e0e0;
+}
+
+.testimonio-card {
+  background: rgba(12, 12, 12, 0.279);
+  padding: 15px;
+  border-left: 4px solid #ff4081;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  color: #e0e0e0;
+}
+
+.testimonio-card p {
+  margin: 0;
+  font-style: italic;
+}
+
+.testimonio-card span {
+  display: block;
+  text-align: right;
+  margin-top: 8px;
+  font-weight: bold;
+  color: #f7c6ff;
+}

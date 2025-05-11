@@ -1,0 +1,67 @@
+/* src/styles/Home.css */
+
+.home-container {
+  padding: 30px;
+  background-color: #1e1e1e6b; /* fondo general oscuro */
+  color: #f0f0f0; /* texto claro */
+}
+
+.banner {
+  background: linear-gradient(135deg, #3b3b3b, #5c5c5c); /* fondo metálico gris */
+  padding: 40px;
+  text-align: center;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+.banner h1 {
+  font-size: 2em;
+  margin-bottom: 10px;
+  color: #f7c6ff; /* rosa metálico */
+}
+
+.banner p {
+  font-size: 1.2em;
+  color: #ccc;
+}
+
+.descripcion, .servicios, .promociones {
+  margin-bottom: 40px;
+}
+
+.descripcion h2, .servicios h2, .promociones h2 {
+  color: #c5f907;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.cards-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  background: linear-gradient(135deg, #2b2b2b27, #3a3a3a); /* fondo metálico oscuro */
+  width: 250px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.866);
+  text-align: center;
+  padding: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 15px rgba(255, 64, 128, 0.537); /* sombra con tinte rosado */
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  border: 2px solid #ff4081; /* borde metálico rosa */
+}
