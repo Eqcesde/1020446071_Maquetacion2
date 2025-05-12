@@ -1,13 +1,12 @@
-/* src/styles/Home.css */
 
 .home-container {
   padding: 30px;
-  background-color: #1e1e1e6b; /* fondo general oscuro */
-  color: #f0f0f0; /* texto claro */
+  background-color: #1e1e1e6b; 
+  color: #f0f0f0; 
 }
 
 .banner {
-  background: linear-gradient(135deg, #3b3b3b, #5c5c5c); /* fondo metálico gris */
+  background: linear-gradient(135deg, #3b3b3b, #5c5c5c); 
   padding: 40px;
   text-align: center;
   border-radius: 10px;
@@ -18,7 +17,7 @@
 .banner h1 {
   font-size: 2em;
   margin-bottom: 10px;
-  color: #f7c6ff; /* rosa metálico */
+  color: #f7c6ff; 
 }
 
 .banner p {
@@ -31,7 +30,7 @@
 }
 
 .descripcion h2, .servicios h2, .promociones h2 {
-  color: #c5f907;
+  color: #e31a5d;
   margin-bottom: 15px;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -45,7 +44,7 @@
 }
 
 .card {
-  background: linear-gradient(135deg, #2b2b2b27, #3a3a3a); /* fondo metálico oscuro */
+  background: linear-gradient(135deg, #2b2b2b27, #3a3a3a); 
   width: 250px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.866);
@@ -56,12 +55,12 @@
 
 .card:hover {
   transform: scale(1.05);
-  box-shadow: 0 6px 15px rgba(255, 64, 128, 0.537); /* sombra con tinte rosado */
+  box-shadow: 0 6px 15px rgba(255, 64, 128, 0.537); 
 }
 
 .card img {
   width: 100%;
   border-radius: 10px;
   margin-bottom: 10px;
-  border: 2px solid #ff4081; /* borde metálico rosa */
+  border: 2px solid #ff4081; 
 }

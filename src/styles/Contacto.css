@@ -1,17 +1,15 @@
-/* src/styles/Contacto.css */
 
 .contacto-container {
   max-width: 700px;
   margin: 60px auto;
   padding: 30px;
-  background: rgba(50, 50, 50, 0.618); /* fondo oscuro semitransparente */
+  background: rgba(50, 50, 50, 0.618); 
   border-radius: 12px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.6);
   color: #f0f0f0;
 }
 
 body, .contacto-page {
-  background-image: url('../../public/manos-con-nail-art-creativo.jpg'); /* cambia según tu ruta */
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -22,7 +20,7 @@ body, .contacto-page {
 
 .contacto-container h2 {
   text-align: center;
-  color: #f7c6ff; /* rosa metálico claro */
+  color: #f7c6ff; 
   margin-bottom: 25px;
   text-shadow: 1px 1px 4px rgba(0,0,0,0.5);
 }
@@ -33,7 +31,7 @@ body, .contacto-page {
 }
 
 .info-contacto a {
-  color: #80d8ff; /* celeste brillante */
+  color: #80d8ff; 
   text-decoration: none;
 }
 

@@ -1,5 +1,4 @@
-// src/components/Promocion.jsx
-import React from 'react';
+
 import '../styles/Promocion.css';
 
 function PromocionCard({ texto }) {

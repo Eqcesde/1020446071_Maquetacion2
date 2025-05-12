@@ -1,5 +1,3 @@
-// src/components/Banner.jsx
-import React from 'react';
 import '../styles/Banner.css';
 
 function Banner({ titulo, subtitulo }) {

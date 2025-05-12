@@ -1,6 +1,4 @@
-// src/pages/Servicios.jsx
-import React from 'react';
-import ServicioCard from '../components/ServicioCard';
+
 import '../styles/Servicios.css';
 
 function Servicios() {

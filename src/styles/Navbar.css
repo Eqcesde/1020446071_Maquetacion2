@@ -1,7 +1,6 @@
-/* src/styles/Navbar.css */
 
 .navbar {
-  background: linear-gradient(135deg, #4a4a4ac4, #5c5c5c); /* gris metálico medio */
+  background: linear-gradient(135deg, #4a4a4ac4, #5c5c5c); 
   padding: 15px 30px;
   display: flex;
   justify-content: space-between;
@@ -16,8 +15,13 @@
 .logo {
   font-weight: bold;
   font-size: 1.6em;
-  color: #f7c6ff; /* rosa metálico suave */
+  color: #f7c6ff; 
   letter-spacing: 1px;
+}
+
+.logo:hover{
+  transform: scale(1.05);
+  box-shadow: 0 6px 15px rgba(255, 64, 128, 0.537); 
 }
 
 .nav-links {

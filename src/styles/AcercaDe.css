@@ -1,7 +1,7 @@
-/* src/styles/AcercaDe.css */
+
 
 body, .acerca-page {
-  background-image: url('/manos-con-nail-art-creativo.jpg'); /* reemplaza por tu imagen */
+  background-image: url('/fondo.jpg'); 
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -14,7 +14,7 @@ body, .acerca-page {
   max-width: 800px;
   margin: 40px auto;
   padding: 30px;
-  background: rgba(50, 50, 50, 0.515); /* fondo oscuro translúcido */
+  background: rgba(50, 50, 50, 0.515); 
   border-radius: 12px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.414);
   color: #f0f0f0;
@@ -22,7 +22,7 @@ body, .acerca-page {
 
 .acerca-container h2 {
   text-align: center;
-  color: #f7c6ff; /* rosa metálico claro */
+  color: #f7c6ff; 
   margin-bottom: 30px;
   text-shadow: 1px 1px 4px rgba(0,0,0,0.5);
 }
@@ -34,7 +34,7 @@ body, .acerca-page {
 .historia h3,
 .filosofia h3,
 .testimonios h3 {
-  color: #ff4081; /* fucsia metálico */
+  color: #ff4081; 
   margin-bottom: 10px;
 }
 

@@ -1,7 +1,4 @@
-// src/pages/Home.jsx
-import React from 'react';
-import Banner from '../components/Banner';
-import PromocionCard from '../components/PromocionCard';
+
 import '../styles/Home.css';
 
 function Home() {
@@ -25,7 +22,7 @@ function Home() {
         <h2>Servicios Destacados</h2>
         <div className="cards-container">
           <div className="card">
-            <img src="../../public/Imagen de WhatsApp 2025-05-10 a las 18.06.32_6ca909d0.jpg" alt="Manicura" />
+            <img src="../../public/manucure.jpg" alt="Manicura" />
             <h3>Manicura Profesional</h3>
             <p>Uñas limpias, saludables y elegantes.</p>
           </div>

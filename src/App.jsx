@@ -9,7 +9,6 @@ import AcercaDe from './pages/AcercaDe';
 import Login from './pages/Login';
 import Registro from './pages/Registro';
 
-import './styles/App.css';
 
 function App() {
   return (

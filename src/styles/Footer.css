@@ -1,7 +1,5 @@
-/* src/styles/Footer.css */
-
 .footer {
-  background: linear-gradient(135deg, #636262a0, #4a4a4ad5); /* gris metálico medio */
+  background: linear-gradient(135deg, #636262a0, #4a4a4ad5); 
   color: #f0f0f0;
   text-align: center;
   padding: 20px 0;
@@ -12,12 +10,12 @@
 }
 
 .footer a {
-  color: #ff4081; /* rosa metálico brillante */
+  color: #ff4081; 
   text-decoration: none;
   margin: 0 8px;
   transition: color 0.3s ease;
 }
 
 .footer a:hover {
-  color: #f7c6ff; /* rosa metálico más suave */
+  color: #f7c6ff; 
 }

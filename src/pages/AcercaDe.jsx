@@ -1,5 +1,3 @@
-// src/pages/AcercaDe.jsx
-import React from 'react';
 import '../styles/AcercaDe.css';
 
 function AcercaDe() {

@@ -1,5 +1,3 @@
-// src/components/ServicioCard.jsx
-import React from 'react';
 import '../styles/ServicioCard.css';
 
 function ServicioCard({ titulo, descripcion, precio, imagen }) {

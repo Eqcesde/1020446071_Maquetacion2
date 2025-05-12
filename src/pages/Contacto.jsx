@@ -1,6 +1,4 @@
-// src/pages/Contacto.jsx
-import React from 'react';
-import ContactoForm from '../components/ContactoForm';
+
 import '../styles/Contacto.css';
 
 function Contacto() {
@@ -9,9 +7,9 @@ function Contacto() {
       <h2>Contáctanos</h2>
 
       <div className="info-contacto">
-        <p><strong>Teléfono:</strong> (+57) 311 381 9400</p>
+        <p><strong>Teléfono:</strong> (+57) 320 844 3691</p>
         <p><strong>WhatsApp:</strong> <a href="https://wa.me/573113819400" target="_blank" rel="noreferrer">Enviar mensaje</a></p>
-        <p><strong>Ubicación:</strong> Calle 62 51 98, Bello-Antioquia</p>
+        <p><strong>Ubicación:</strong> Calle 50a 38 20, Bello-Antioquia</p>
         <p><a href="https://www.google.com/maps" target="_blank" rel="noreferrer">Ver en Google Maps</a></p>
       </div>
 

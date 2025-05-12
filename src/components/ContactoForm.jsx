@@ -1,5 +1,3 @@
-// src/components/ContactoForm.jsx
-import React from 'react';
 import '../styles/ContactoForm.css';
 
 function ContactoForm() {
